@@ -7,11 +7,13 @@
   "devDependencies": {},
   "bin": {
     "lj-uname": "run-uname.js",
-    "lj-whoami": "run-whoami.js"
+    "lj-whoami": "run-whoami.js",
+    "lj-free": "run-free.js"
   },
   "scripts": {
     "uname": "./run-uname.js",
-    "whoami": "./run-whoami.js"
+    "whoami": "./run-whoami.js",
+    "free": "./run-free.js"
   },
   "repository": {
     "type": "git",
