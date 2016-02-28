@@ -15,19 +15,11 @@
   :source-paths ["src"]
 
   :cljsbuild {
-    :builds [{:id "uname"
+    :builds [{:id "hello-lambda-jakarta"
               :source-paths ["src"]
               :compiler {
-                :output-to "out-uname/uname.js"
-                :output-dir "out-uname"
-                :target :nodejs
-                :optimizations :none
-                :source-map true}},
-             {:id "whoami"
-              :source-paths ["src"]
-              :compiler {
-                :output-to "out-whoami/whoami.js"
-                :output-dir "out-whoami"
+                :output-to "out/hello_lambda_jakarta.js"
+                :output-dir "out"
                 :target :nodejs
                 :optimizations :none
                 :source-map true}}]})

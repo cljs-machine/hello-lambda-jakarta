@@ -3,7 +3,7 @@ try {
     require("source-map-support").install();
 } catch(err) {
 }
-require("./out-uname/goog/bootstrap/nodejs.js");
-require("./out-uname/uname.js");
-goog.require("uname.core");
+require("./out/goog/bootstrap/nodejs.js");
+require("./out/hello_lambda_jakarta.js");
+goog.require("hello_lambda_jakarta.uname");
 goog.require("cljs.nodejscli");
