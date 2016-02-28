@@ -1,0 +1,12 @@
+---
+language: clojure
+
+sudo: required
+
+before_install:
+  - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 68576280
+  - sudo add-apt-repository "deb https://deb.nodesource.com/node_5.x $(lsb_release -sc) main" -y
+  - sudo apt-get update -q
+  - sudo apt-get install nodejs -y
+
+script: lein cljsbuild test
