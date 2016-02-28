@@ -5,9 +5,13 @@
   "main": "run.js",
   "dependencies": {},
   "devDependencies": {},
+  "bin": {
+    "lj-uname": "run-uname.js",
+    "lj-whoami": "run-whoami.js"
+  },
   "scripts": {
-    "start": "node run.js",
-    "test": "foo"
+    "uname": "./run-uname.js",
+    "whoami": "./run-whoami.js"
   },
   "repository": {
     "type": "git",
