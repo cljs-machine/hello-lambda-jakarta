@@ -1,0 +1,25 @@
+{
+  "name": "hello-lambda-jakarta",
+  "version": "0.1.0",
+  "description": "Lambda Jakarta tooling mini-meetup",
+  "main": "run.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node run.js",
+    "test": "foo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cljs-machine/hello-lambda-jakarta.git"
+  },
+  "keywords": [
+    "cljs"
+  ],
+  "author": "Lambda Jakarta",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cljs-machine/hello-lambda-jakarta/issues"
+  },
+  "homepage": "https://github.com/cljs-machine/hello-lambda-jakarta#readme"
+}
