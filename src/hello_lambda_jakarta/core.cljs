@@ -6,7 +6,9 @@
 (def process (nodejs/require "process"))
 
 (defn uname []
-  (.arch os)
+  {:platform (.platform os)
+   :arch (.arch os)
+   }
 )
 
 (defn whoami []
