@@ -9,3 +9,6 @@ Try `lein npm run uname` and `lein npm run whoami`
 4. `sudo $(which lein) npm link`
 
 Try `lj-whoami` and `lj-uname`
+
+
+if you want start with docker container, you can do [docker pull sofianhw/cljs-docker](https://hub.docker.com/r/sofianhw/cljs-docker/) from your terminal.
